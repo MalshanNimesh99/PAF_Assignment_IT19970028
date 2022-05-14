@@ -14,7 +14,7 @@ $(document).on("click", "#btnSave", function() {
 	$("#alertSuccess").hide();
 	$("#alertError").text("");
 	$("#alertError").hide();
-	// Form validation-------------------
+	// Form validation------------------- 
 	var status = validateEmployerForm();
 	if (status != true) {
 		$("#alertError").text(status);
@@ -53,7 +53,7 @@ $(document).on("click", ".btnRemove", function(event) {
 
 
 
-// CLIENT-MODEL================================================================
+// CLIENT-MODEL==============================================================
 function validateEmployerForm() {
 	// CODE
 	if ($("#nic").val().trim() == "") {
