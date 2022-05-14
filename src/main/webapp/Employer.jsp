@@ -17,7 +17,7 @@
 <title>Employer Management</title>
 </head>
 <body style="background-color:#c3c9e3;">
-	<div class="container" style="box-shadow: 1px 15px 30px #404037; background-color: #dcdee3;">
+	<div class="container" style="box-shadow: 1px 15px 30px #404037; background-color: #dcdee3;" >
 	<h1 style="margin:20px 0px 20px 400px; padding-top: 10px;">Employer Management</h1>
 	<hr>
 	<div class="row">
