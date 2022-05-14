@@ -18,7 +18,7 @@ public class Employer {
 		return con;
 	}
 
-	
+	 
 	//*************************read employers***********************************************
 	public String readEmployers() {
 		String output = "";
@@ -36,6 +36,7 @@ public class Employer {
 					+ "<th style=width:50px; >Update</th>"
 					+ "<th style=width:50px; >Remove</th></tr>";
 
+			
 			String query = "select * from employers";
 			Statement stmt = con.createStatement();
 			ResultSet rs = stmt.executeQuery(query);
